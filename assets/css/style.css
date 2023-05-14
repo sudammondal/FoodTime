@@ -261,6 +261,18 @@ input {
         left: 100%
     }
 }
+.Hero_Img {
+    animation: Hero_Img 100s linear infinite;
+}
+@keyframes Hero_Img {
+    0% {
+        rotate: 360deg;
+    }
+
+    100% {
+        lrotate: 0deg;
+    }
+}
 
 /* // Large devices (desktops, 992px and up) */
 @media (max-width: 992px) { 
