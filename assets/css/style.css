@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ffffff;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #14142b;
+    padding: 0;
+    margin: 0;
+}
+.pragraph {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #14142B;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52.8px;
+    color: #14142b;
+}
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #14142b;
+}
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #14142b;
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #14142b;
+}
+h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #14142b;
+}
+h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #14142b;
+}
+.green_dark {
+    color: #1AD993;
+}
+.green_dark_bg {
+    background-color: #1AD993;
+}
+.green_light {
+    color: #ABFFE0;
+}
+.green_light_bg {
+    background-color: #ABFFE0;
+}
+
+.blud_dark {
+    color: #503AE7;
+}
+.blue_dark_bg {
+    background-color: #503AE7;
+}
+.blue_light {
+    color: #832BC1;
+}
+.blue_light_bg {
+    background-color: #832BC1;
+}
+
+.black_dark {
+    color: #14142B;
+}
+.black_dark_bg {
+    background-color: #14142B;
+}
+.black_light {
+    color: #AFB0B9;
+}
+.black_light_bg {
+    background-color: #AFB0B9;
+}
+.light_Color {
+    color: #F4F2FF;
+}
+.light_bg {
+    background-color: #F4F2FF;
+}
+.lightStar_Color {
+    color: #FF7602;
+}
+.btn {
+    border-radius: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+    padding: 12px 32px;
+    outline: none;
+    box-shadow: none;
+}
+.btnSecondar {
+    background-color: transparent;
+    border: 2px solid #14142B;
+    color: #14142B;
+}
+.btnSecondar:hover {
+    background-color: transparent;
+    color: #1AD993;
+    border: 2px solid #1AD993;
+}
+.btnPrimary {
+    background-color:#503AE7;
+    color: #ffffff;
+    border: 2px solid transparent;
+}
+.btnPrimary:hover {
+    background-color: #3E2DB2;
+    color: #ffffff;
+    border: 2px solid #3E2DB2;
+}
+
+.playearinner .palayer {
+    width: 40px;
+    height: 40px;
+    background-color:#503AE7;
+
+}
+.playearinner .palayer i{
+    color: #ffffff;
+}
+.plater_Tex {
+    color: #503AE7;
+}
+.playearinner:hover .plater_Tex {
+    color: #3E2DB2;
+}
+.playearinner:hover .palayer{
+   background-color: #3E2DB2;
+}
+.plater_Tex:hover {
+    color: #3E2DB2;
+}
+.bg_transparent {
+    background-color: transparent;
+}
+
+.icon_manu .icon_list .icon_link i{
+    color: #14142b;
+    font-size: 20px;
+    line-height: 28px;
+}
+/*=====header=====*/
+.logoWE {
+    width: 40px;
+    height: 40px;
+}
+/*=====banner=====*/
+.banner_wrappar {
+    padding: 150px 0;
+}
+.heroSection {
+    max-width: 474px;
+    width: 100%;
+}
+
+  input {
+    background-color: #F4F2FF; 
+    border: transparent;
+    padding: 12px 0 12px 20px;
+    width: 100%;
+  }
+  form.example button {
+    cursor: pointer;
+    background-color: #503AE7;
+    border: 2px solid transparent;
+    color: #F4F2FF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  
+
+/*=====brand Wrap=====*/
+.channelGrid {
+    grid-template-columns: 50% 50%;
+    margin-bottom: 80px;
+}
+.channeContaint {
+    max-width: 490px;
+}
+.channeImage {
+    background-image: url(../../assets/Images/Rightabo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 496px;
+}
+.channeImageTwo {
+    background-image: url(../../assets/Images/mansitting.png);
+}
+
+/*===slider===*/
+
+.slick-prev:before, .slick-next:before {
+    font-size: 23px;
+    opacity: .75;
+    color: #fff;
+    background-color: #503AE7;
+    padding: 12px;
+    border-radius: 50%;
+}
+.slick-prev {
+    left: initial;
+    top: -70px;
+    right: 127px;
+}
+.slick-next {
+    right: 27px;
+    top:-70px;
+
+}
+.slick-track {
+    float: left;
+}
+.sliderInner {
+    position: relative;
+    height: 300px;
+}
+.sliderInner::before {
+    background-color: #503AE7;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+}
+/* .img_circle {
+    border-radius: 100%;
+} */
