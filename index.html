@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/fonts/Inter-VariableFont_slnt,wght.ttf">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Merienda:wght@300;400;600;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,800;1,900&family=Quicksand:wght@300;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Merienda:wght@300;400;600;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,800;1,900&family=Quicksand:wght@300;500;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -46,9 +47,9 @@
               </li>
               
                 <li class="nav-item nav_link log_button">
-                  <a class="nav-link loginbutton" href="#">login</a>
+                  <a class="nav-link loginbutton wow rubberBand" data-wow-duration="1.50s" data-wow-delay="0.50s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.6s; animation-name: rubberBand;" href="#">login</a>
                 </li>
-                <li class="nav-item cart_wrap">
+                <li class="nav-item cart_wrap wow zoomInDown" data-wow-duration="1.50s" data-wow-delay="0.50s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.6s; animation-name: zoomInDown;">
                   <a class="nav-link  cartButton p-0" href="#">
                     <i class="fas fa-shopping-cart"></i>
                   </a>
@@ -61,27 +62,27 @@
 </header>
 <section class="banner_wrappar">
     <div class="container position-relative"> 
-      <img src="./assets/Images/left.png" alt="img" class="img-fluid left_Imgon" >
-      <img src="./assets/Images/lift2.png" alt="img" class="img-fluid left_Imgtwo">
+      <img src="./assets/Images/left.png" alt="img" class="img-fluid left_Imgon wow fadeInLeft" data-wow-duration="1.50s" data-wow-delay="0.50s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeInLeft;" >
+      <img src="./assets/Images/lift2.png" alt="img" class="img-fluid left_Imgtwo wow fadeInRight" data-wow-duration="1.50s" data-wow-delay="0.50s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeInRight;">
         <div class="row">
             <div class="col-xx-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-center">
                 <div class="heroSection">
-                    <h1 class="">Order food online from your favourite local restaurants. </h1>
+                    <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.50s">Order food online from your favourite local restaurants. </h1>
                     <p class="pragraph">Freshly made food delivered to your door.
                     </p>
                     <form class="example d-flex w-100" >
                         <input type="email" placeholder="Enter your location" name="email">
                         <div class="nav-item log_button logButtoN">
-                          <button class="nav-link loginbutton" type="submit"><i class="fas fa-search"></i>login</button>
+                          <button class="nav-link loginbutton wow fadeInLeft" data-wow-duration="1.50s" data-wow-delay="0.50s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeInLeft;" type="submit"><i class="fas fa-search"></i>login</button>
                         </div>
-                        <div class="fromcolor_div"></div>
+                        <div class="fromcolor_div wow flash" data-wow-duration="1.50s" data-wow-delay="0.50s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.6s; animation-name: flash;"></div>
                     </form>
                 </div>
             </div>
             <div class="col-xx-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-center">
               <div class="bannerImgs d-flex align-items-center justify-content-center w-100 h-100">
                 <img src="./assets/Images/bannerImg.png" alt="img" class="img-fluid Hero_Img">
-                <div class="People_Wrap">
+                <div class="People_Wrap wow zoomInUp " data-wow-duration="1.50s" data-wow-delay="0.50s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: zoomInUp;">
                   <div class="people_inner">
                     <img src="./assets/Images/Vector.png" alt="img" class="img-fluid w-100 h-100">
                     <p class=" pepolle_Head">200k+</p>
@@ -98,10 +99,10 @@
     <div class="row">
       <div class="col-xx-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-center">
         <div class="Explore_inner">
-          <h2 class="Explore_head">Explore your favourite city’s food.</h2>
-          <p class="Explore_pra">Lorem ipsum dolor sit amet consectetur. Ornare massa nunc nibh tristique. Non ligula tristique ut ut libero sit convallis maecenas. At egestas auctor porta mattis.</p>
+          <h2 class="Explore_head wow fadeInUp " data-wow-duration="1.50s" data-wow-delay="0.50s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeInUp;">Explore your favourite city’s food.</h2>
+          <p class="Explore_pra wow fadeInUp " data-wow-duration="1.50s" data-wow-delay="0.50s" style="visibility: visible; animation-duration: 1.9s; animation-delay: 0.5s; animation-name: fadeInUp;">Lorem ipsum dolor sit amet consectetur. Ornare massa nunc nibh tristique. Non ligula tristique ut ut libero sit convallis maecenas. At egestas auctor porta mattis.</p>
           <div class="nav-item log_button m-0">
-            <button class="nav-link loginbutton" type="submit">login<i class="fas fa-arrow-right"></i></button>
+            <button class="nav-link loginbutton wow pulse data-wow-duration="1.50s" data-wow-delay="0.50s" style="visibility: visible; animation-duration: 1.9s; animation-delay: 0.5s; animation-name: pulse;" type="submit">login<i class="fas fa-arrow-right"></i></button>
           </div>
         </div>
       </div>
@@ -117,6 +118,7 @@
 </section>
     <script src="./assets/js/jquery-3.6.0.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
