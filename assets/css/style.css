@@ -114,6 +114,7 @@ i.fas.fa-shopping-cart {
 .banner_wrappar {
     padding: 126px  0 96px;
     background-color: rgb(107 145 66 / 10%);
+    overflow: hidden;
 }
 
 .nav-link.loginbutton {
@@ -261,17 +262,112 @@ input {
     }
 }
 
-// Small devices (landscape phones, 576px and up)
-@media (max-width: 576px) { ... }
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    .nav-link {
+        margin: 0;
+    }
+    .nav_link {
+        margin: 20px 0;
+    }
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .left_Imgtwo {
+        z-index: -1;
+    }
+    .left_Imgon {
+        z-index: -1;
+    }
+    .pragraph {
+        text-align: center;
+    }
+    .nav_link {
+        margin: 20px 0;
+    }
+    form.example.d-flex.w-100 {
+        margin-bottom: 86px;
+    }
+    .Explore_inner {
+        text-align: center;
+    }
+    .Explore_head {
+        text-align: center;
+        font-size: 40px;
+    }
+    .nav-item.log_button.m-0 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
-// Medium devices (tablets, 768px and up)
-@media (max-width: 768px) { ... }
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .nav_link {
+        margin: 20px 0;
+    }
+     h1 {
+         font-size: 50px;
+         text-align: center;
+     }
+     .People_Wrap {
+         top: -57px;
+         left: 147px;
+     }
+     .Explore_pra {
+         font-size: 16px;
+     }
+  }
+ 
 
-// Large devices (desktops, 992px and up)
-@media (max-width: 992px) { ... }
 
-// X-Large devices (large desktops, 1200px and up)
-@media (max-width: 1200px) { ... }
+@media (max-width: 375px) {
+    .banner_wrappar {
+        padding: 40px 0 40px;}
+    .left_Imgon {
+        display: none;
+    }
+    i.fas.fa-shopping-cart {
+        font-size: 18px;
+    }
+    .left_Imgtwo {
+        display: none;
+    }
+    h1 {
+        font-size: 32px;
+        text-align: center;
+        line-height: 46px;
+    }
+    .nav_link {
+        margin: 20px 0;
+    }
+    .pragraph {
+        font-size: 16px;
+        margin: 15px 0;
+    }
+    
+    .fromcolor_div {
+        display: none;
+    }
+    input {
+        margin-left: 15px;
+    }
+    .nav-link.loginbutton {
+        padding: 10px 20px !important;
+        font-size: 14px;
+    }
+    .People_Wrap {
+        top: 0;
+        left: 25px;
+    }
+    form.example.d-flex.w-100 {
+        margin-bottom: 40px;
+    }
+    .Explore_pra {
+        font-size: 14px;
+    }
+    
 
-// XX-Large devices (larger desktops, 1400px and up)
-@media (max-width: 1400px) { ... }
+}
